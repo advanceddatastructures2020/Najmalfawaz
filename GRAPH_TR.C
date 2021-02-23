@@ -52,7 +52,7 @@ struct node *ne=(struct node*)malloc(sizeof(struct node));
  for(i=0;i<=v;i++)
  visited[i]=0;
  printf("\ndfs\n");
- for(i=0;i<=v;i++)
+ for(i=1;i<=v;i++)
   if (visited[i]==0)
   dfsvisit(i);
   }
